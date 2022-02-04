@@ -1,5 +1,6 @@
-# spotify :D
+# Spotify status ig
 
-![image](https://user-images.githubusercontent.com/83192247/147626971-1dbb4374-ed19-478b-a3c3-ec06d9fd6557.png)
+![image](https://user-images.githubusercontent.com/74418041/152544687-bb0b94a1-b9b1-480d-adb7-3af87936d38c.png)
 
-the code for this is really bad but I Do Not Care because it somewhat works and its a lazy 2 hour project
+
+this repository only works because of cnrad's, check his out: [https://github.com/cnrad/s](https://github.com/cnrad/s)

@@ -5,7 +5,7 @@ import Head from "next/head";
 import { useState, useEffect } from "react";
 
 export async function getServerSideProps(ctx: any) {
-    let body: any = await fetch("https://api.lanyard.rest/v1/users/705665813994012695").then((res: any) => res.json());
+    let body: any = await fetch("https://api.lanyard.rest/v1/users/893762371770802227").then((res: any) => res.json());
 
     return {
         props: { body },
@@ -31,7 +31,7 @@ const Home: NextPage = ({ body }: any) => {
         }, 1000);
 
         setInterval(async () => {
-            let newBody: any = await fetch("https://api.lanyard.rest/v1/users/705665813994012695").then((res: any) =>
+            let newBody: any = await fetch("https://api.lanyard.rest/v1/users/893762371770802227").then((res: any) =>
                 res.json()
             );
             if (newBody.data.spotify !== data.spotify) setData(newBody.data);

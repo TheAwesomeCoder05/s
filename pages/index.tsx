@@ -60,10 +60,10 @@ const Home: NextPage = ({ body }: any) => {
                 </title>
                 <meta name="theme-color" content="#1DB954" />
 
-                <meta name="og:title" content={`s.cnrad.dev`} />
+                <meta name="og:title" content={`spotify.devcomp.tk`} />
                 <meta
                     name="og:description"
-                    content={`Conrad is currently listening to ${
+                    content={`DevComp is currently listening to ${
                         data.spotify.song ? data.spotify.song + " by " + data.spotify.artist : "nothing"
                     }`}
                 />
